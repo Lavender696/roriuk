@@ -1,10 +1,26 @@
 .navbar {
-  /* https://uigradients.com/#VeniceBlue */
-  background: #085078;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #d60000;
 }
 
 .navbar:hover {
-    color: rgba(255, 255, 255);
+    color: #ffffff;
+}
+
+body {
+    background: #ffffff;
+    color: #111111;
+}
+
+a {
+    color: #d60000;
+}
+
+.btn-primary {
+    background-color: #d60000;
+    border-color: #d60000;
+}
+
+.btn-primary:hover {
+    background-color: #b00000;
+    border-color: #b00000;
 }
